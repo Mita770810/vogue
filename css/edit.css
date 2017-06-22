@@ -1,0 +1,52 @@
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float:left;
+    padding:.5em;
+    text-decoration: none;
+    font-size:26px;
+    background:gray;
+    color:white;
+    font-family: 微軟儷黑體, 微軟正黑體, Arial, Helvetica, Geneva, sans-serif;
+
+    
+}
+
+.ui-widget-content {
+border: 1px solid #dddddd;
+background: #ffffff;
+color: #795548;
+height:353px;
+}
+@media(max-width:768px){
+	.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+		font-size:30px;
+	}
+	.ui-widget-content {
+		height:auto;
+		font-size:30px;
+		width:100%;
+    }
+ 
+}
+@media(max-width:767px) and(min-width:569px){
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+		font-size:18px;
+	}
+	.ui-widget-content {
+		
+		font-size:18px;
+		
+    }
+}
+@media (max-width:568px){
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+		font-size:17px;
+	}
+	.ui-widget-content {
+		
+		font-size:17px;
+	
+		
+    }
+
+}
